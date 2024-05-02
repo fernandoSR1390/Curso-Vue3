@@ -17,6 +17,11 @@ const router = createRouter({
       path: '/registrar',
       name: 'Registrar',
       component: () => import('../modules/registro/views/RegistrarView.vue')
+    },
+    {
+      path: '/calcular',
+      name: 'Calcular',
+      component: () => import('../modules/calcular/views/CalcularView.vue')
     }
   ]
 })
